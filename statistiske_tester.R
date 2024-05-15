@@ -134,7 +134,6 @@ bap %>%
             m = mean(c(vo2master_rq85_day1, vo2master_rq85_day2)), # mean
             te = s / sqrt(2), # the typical error.
             cv_te = 100 * (te / m), # Coefficient of variation, of typical error
-            cv_s = 100 * (s / m), # Coefficient of variation, of sd
             L = qt(0.975, 4) * s, # Calculate as a percentage of the mean
             bias = mean(diff),
             upper_loa = bias + 1.96 * s,
@@ -177,7 +176,6 @@ ba4 %>%
             m = mean(c(rmr_oxycon_weir_day1, rmr_oxycon_weir_day2)), # mean
             te = s / sqrt(2), # the typical error.
             cv_te = 100 * (te / m), # Coefficient of variation, of typical error
-            cv_s = 100 * (s / m), # Coefficient of variation, of sd
             L = qt(0.975, 4) * s, # Calculate as a percentage of the mean
             bias = mean(diff),
             upper_loa = bias + 1.96 * s,
@@ -218,7 +216,6 @@ ba3 %>%
             m = mean(c(vo2_vo2master_day1, vo2_vo2master_day2)), # mean
             te = s / sqrt(2), # the typical error.
             cv_te = 100 * (te / m), # Coefficient of variation, of typical error
-            cv_s = 100 * (s / m), # Coefficient of variation, of sd
             L = qt(0.975, 4) * s, # Calculate as a percentage of the mean
             bias = mean(diff),
             upper_loa = bias + 1.96 * s,
@@ -261,7 +258,6 @@ ba5 %>%
             m = mean(c(vo2_oxycon_day1, vo2_oxycon_day2)), # mean
             te = s / sqrt(2), # the typical error.
             cv_te = 100 * (te / m), # Coefficient of variation, of typical error
-            cv_s = 100 * (s / m), # Coefficient of variation, of sd 
             L = qt(0.975, 4) * s, # Calculate as a percentage of the mean
             bias = mean(diff),
             upper_loa = bias + 1.96 * s,

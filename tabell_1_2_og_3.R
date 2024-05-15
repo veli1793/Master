@@ -5,7 +5,7 @@ library(flextable)
 library(ggtext)
 
 
-## Denne fanen inneholder Tabell 1, 2 og 3. Tabell 2 og 3 viser her ikke p-verdier. P-verdiene vises under fanen "statistiske analyser.R".  
+## Denne fanen inneholder Tabell 1, 2 og 3. Tabell 2 og 3 viser her ikke p-verdier. P-verdiene vises under fanen "statistiske tester.R".  
 
 ### Tabell 1: Deskriptiv statistikk ########################
 
